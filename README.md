@@ -16,9 +16,11 @@ This project contains automated tests for the Trajector Medical website using Pl
    cd Trajector-Medical
 
 2. Install dependencies:
+    ```sh
     npm init -y
     npm install playwright
     npm install faker
 
-3. To run the tests, use the following command:
+4. To run the tests, use the following command:
+    ```sh
     node smoketest.js
